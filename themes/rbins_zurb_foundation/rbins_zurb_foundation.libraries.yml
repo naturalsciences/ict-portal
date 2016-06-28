@@ -1,0 +1,5 @@
+rbins:
+  version: VERSION
+  css:
+    component:
+      css/product-box.css: {}
