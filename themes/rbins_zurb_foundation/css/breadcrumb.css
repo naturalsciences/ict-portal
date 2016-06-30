@@ -1,0 +1,27 @@
+.region-breadcrumb {
+    padding: 3px 15px 0.25em;
+    margin-top:0px;
+    background-color:#e2e4e3;
+    border-bottom: 5px solid #f3f3f3;
+}
+.region-breadcrumb ul.menu {
+    padding-left:0.65em;
+    text-shadow: 1px 1px 1px #efefef;
+}
+.region-breadcrumb ul.menu li {
+    border-left:1px solid white;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top:4px;
+    padding-bottom:4px;
+    float: left;
+    font-size:1.1em;
+    line-height:0;
+}
+.region-breadcrumb ul.menu li a,
+.region-breadcrumb ul.menu li a:visited,
+.region-breadcrumb ul.menu li a:active,
+.region-breadcrumb ul.menu li a:hover {
+    text-decoration: none;
+    border-bottom:none;
+}
