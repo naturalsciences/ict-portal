@@ -1,0 +1,8 @@
+name: "RBINS Bartik sub-theme"
+type: theme
+description: 'Sub-theme derived from the main Bartik one'
+core: 8.x
+base theme: bartik
+libraries:
+  - rbins_bartik/rbins
+  - rbins_bartik/rbins_fonts

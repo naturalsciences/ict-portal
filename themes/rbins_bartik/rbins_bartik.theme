@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Bartik theme.
+ */
+
+function rbins_bartik_preprocess_page(&$variables) {
+  /**
+   * @ToDo Instead of this crappy code, chek the presence
+   *       of the two responsive_menu menu block in the page rendering.
+   *       If not rendered, we should load the css that hides the off-canvas div
+   *       //$current_path = \Drupal::service('path.current')->getPath();
+   *       //$result = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);
+   */
+  if (\Drupal::service('path.current')->getPath() !== '/helpdesk') {
+    $variables['#attached']['library'][] = 'rbins_bartik/rbins_off_canvas';
+  }
+}

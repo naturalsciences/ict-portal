@@ -1,0 +1,18 @@
+.region.region-header,
+.region.region-header a,
+.region.region-header li a.is-active,
+.site-branding__text,
+.site-branding__text a,
+.site-branding,
+.site-branding a,
+.site-branding__slogan,
+.site-branding__slogan a,
+.region-secondary-menu .menu-item a,
+.region-secondary-menu .menu-item a.is-active {
+  color: #000;
+}
+
+#header.header {
+    background-color: #FFFFFF;
+    background-image: none;
+}

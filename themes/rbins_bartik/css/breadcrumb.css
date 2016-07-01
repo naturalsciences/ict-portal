@@ -1,0 +1,74 @@
+.region-breadcrumb {
+    margin-top:0px;
+    background-color:#e2e4e3;
+    border-bottom: 5px solid #f3f3f3;
+    height: 2.4em;
+}
+.region-breadcrumb ul.horizontal-menu {
+    padding-left:0.65em;
+    text-shadow: 1px 1px 1px #efefef;
+}
+.region-breadcrumb ul.horizontal-menu li {
+    border-left:1px solid white;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top:4px;
+    padding-bottom:4px;
+    margin-top: -0.5em;
+    float: left;
+    font-size:1.1em;
+    line-height:0;
+}
+.region-breadcrumb ul.horizontal-menu > li > a {
+    padding-right:0em;
+    padding-left:0em;
+}
+.region-breadcrumb ul.horizontal-menu li a,
+.region-breadcrumb ul.horizontal-menu li a:visited,
+.region-breadcrumb ul.horizontal-menu li a:active,
+.region-breadcrumb ul.horizontal-menu li a:hover {
+    text-decoration: none;
+    border-bottom:none;
+}
+div#block-responsivemenumobileicon .responsive-menu-toggle-icon::before,
+div#block-responsivemenumobileicon .responsive-menu-toggle-icon span.icon,
+div#block-responsivemenumobileicon .responsive-menu-toggle-icon::after {
+    background-color: black;
+}
+div#block-responsivemenumobileicon .responsive-menu-toggle-icon span.label {
+    color: black;
+}
+div#block-responsivemenumobileicon a.responsive-menu-toggle-icon,
+div#block-responsivemenumobileicon a.responsive-menu-toggle-icon:visited,
+div#block-responsivemenumobileicon a.responsive-menu-toggle-icon:active,
+div#block-responsivemenumobileicon a.responsive-menu-toggle-icon:hover {
+    text-decoration: none;
+    border-bottom:none;
+    margin-top:-0.1em;
+}
+@media (max-width: 767px) {
+    .region-breadcrumb {
+        height: 3.4em;
+    }
+    div#block-responsivemenumobileicon a.responsive-menu-toggle-icon,
+    div#block-responsivemenumobileicon a.responsive-menu-toggle-icon:visited,
+    div#block-responsivemenumobileicon a.responsive-menu-toggle-icon:active,
+    div#block-responsivemenumobileicon a.responsive-menu-toggle-icon:hover {
+        margin-left:-0.8em;
+    }
+}
+@media (min-width: 768px) {
+    .region-breadcrumb {
+        padding: 3px 0.5em 0em 0.3em;
+    }
+}
+@media (min-width: 800px) {
+    .region-breadcrumb {
+        padding: 3px 0.5em 0em 0.8em;
+    }
+}
+@media (min-width: 980px) {
+    .region-breadcrumb {
+        padding: 3px 0.5em 0em 1.2em;
+    }
+}

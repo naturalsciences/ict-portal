@@ -1,8 +1,0 @@
-name: "RBINS Zurb Foundation sub-theme"
-type: theme
-description: 'Sub-theme derived from the main Zurb Foundation one'
-core: 8.x
-base theme: bartik
-libraries:
-  - rbins_zurb_foundation/rbins
-  - rbins_zurb_foundation/rbins_fonts

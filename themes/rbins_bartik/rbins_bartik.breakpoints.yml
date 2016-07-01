@@ -1,0 +1,12 @@
+rbins_bartik.narrow:
+  label: narrow
+  mediaQuery: '(max-width: 767px)'
+  weight: 1
+  multipliers:
+    - 1x
+rbins_bartik.wide:
+  label: wide
+  mediaQuery: '(min-width: 768px)'
+  weight: 2
+  multipliers:
+    - 1x

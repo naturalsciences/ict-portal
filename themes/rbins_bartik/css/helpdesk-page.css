@@ -1,0 +1,45 @@
+.field--name-field-expert-description-2-3, .field--name-field-expert-description-1-3 {
+    float:left;
+    padding:0.3em;
+    padding-left:1.5em;
+}
+
+@media (max-width: 767px) {
+    .field--name-field-expert-description-2-3,
+    .field--name-field-expert-description-1-3 {
+        padding-left:0em;
+    }
+}
+@media (min-width: 768px) {
+    .field--name-field-expert-description-2-3,
+    .field--name-field-expert-description-1-3 {
+        padding-left:0.7em;
+    }
+}
+@media (min-width: 800px) {
+    .field--name-field-expert-description-2-3,
+    .field--name-field-expert-description-1-3 {
+        padding-left:1em;
+    }
+}
+@media (min-width: 980px) {
+    .field--name-field-expert-description-2-3,
+    .field--name-field-expert-description-1-3 {
+        padding-left:1.5em;
+    }
+    .field--name-field-expert-description-2-3 {
+        width: 66.6%;
+    }
+    .field--name-field-expert-description-1-3 {
+        width: 33.3%;
+    }
+}
+@media (max-width: 979px) {
+    .field--name-field-expert-description-2-3 {
+        width: 100%;
+    }
+
+    .field--name-field-expert-description-1-3 {
+        width: 100%;
+    }
+}

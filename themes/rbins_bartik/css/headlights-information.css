@@ -1,0 +1,128 @@
+.layout-main {
+    margin-top:0px;
+}
+div.region-secondary-menu {
+    padding-top:0.3em;
+    height:2em;
+    background-color: #f3f3f3;
+    width:100%;
+}
+div#block-rbins-bartik-languageswitcher ul li {
+    float: right;
+    margin-right: 1em;
+    font-size: 1.2em;
+}
+.layout-container {
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+}
+div.highlighted aside.layout-container {
+    background-color: #f3f3f3;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+div.highlighted aside .region-highlighted {
+    background-color: #f3f3f3;
+    min-height:190px;
+    margin-left:0;
+    margin-right:0;
+}
+div.view-id-services_and_products_headlights.view-display-id-block_1,
+div.view-id-services_and_products_headlights.view-display-id-block_2,
+div.view-id-services_and_products_headlights.view-display-id-block_3 {
+    float: left;
+    min-height: 100px;
+}
+
+div.more-link {
+    font-weight: bold;
+    margin-top:1.5em;
+}
+
+div#block-views-block-services-and-products-headlights-block-1 h2 {
+    height:20px;
+}
+
+@media (max-width: 979px) {
+    div.highlighted aside.layout-container {
+        padding-bottom:1em;
+    }
+}
+@media (max-width: 579px) {
+    div.highlighted aside .region-highlighted {
+        padding-left: 1.1em;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_1 {
+        border-right: none;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_1 {
+        width:95%;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_2,
+    div.view-id-services_and_products_headlights.view-display-id-block_3 {
+        display:none;
+    }
+}
+@media (min-width: 580px) {
+    div.highlighted aside .region-highlighted {
+        padding-left: 1.1em;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_1 {
+        border-right: 1px solid #bbb;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_1,
+    div.view-id-services_and_products_headlights.view-display-id-block_2 {
+        display: block;
+        width:48%;
+        margin-right: 2%;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_3 {
+        display:none;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_1 div.more-link {
+        display:none;
+    }
+    div#block-views-block-services-and-products-headlights-block-1 h2 {
+        margin:0.5em 0 0.5em 0em;
+    }
+}
+@media (min-width: 768px) {
+    div.highlighted aside .region-highlighted {
+        padding-left: 1.3em;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_3 {
+        display:block;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_2 div.more-link {
+        display:none;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_1,
+    div.view-id-services_and_products_headlights.view-display-id-block_2,
+    div.view-id-services_and_products_headlights.view-display-id-block_3 {
+        width:30%;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_2 {
+        border-right: 1px solid #bbb;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_1,
+    div.view-id-services_and_products_headlights.view-display-id-block_2,
+    div.view-id-services_and_products_headlights.view-display-id-block_3 {
+        padding-left: 0.5em;
+    }
+    div.view-id-services_and_products_headlights.view-display-id-block_3 {
+        border-right:none;
+    }
+    div#block-views-block-services-and-products-headlights-block-1 h2 {
+        margin:0.5em 0 0.5em 0.5em;
+    }
+}
+@media (min-width: 800px) {
+    div.highlighted aside .region-highlighted {
+        padding-left: 1.8em;
+    }
+}
+@media (min-width: 980px) {
+    div.highlighted aside .region-highlighted {
+        padding-left: 2.2em;
+    }
+}
