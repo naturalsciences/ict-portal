@@ -173,6 +173,7 @@ div.views-field-field-service-product-link a:hover {
     display: inline-block;
     width:100%;
     border-bottom:none;
+    color: black;
 }
 div.views-field-field-service-product-status {
     position: absolute;
