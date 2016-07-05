@@ -1,0 +1,24 @@
+name: 'LDAP Authentication'
+description: 'Implements LDAP authentication'
+type: module
+# core: 8.x
+package: 'Lightweight Directory Access Protocol'
+dependencies:
+  - ldap:ldap_servers
+  - ldap:ldap_user
+  - externalauth
+
+#configure = admin/config/people/ldap/authentication
+#files[] = LdapAuthenticationConf.class.php
+#files[] = LdapAuthenticationConfAdmin.class.php
+#files[] = ldap_authentication.module
+#files[] = ldap_authentication.install
+#files[] = ldap_authentication.inc
+#files[] = ldap_authentication.theme.inc
+#files[] = ldap_authentication.admin.inc
+#files[] = tests/ldap_authentication.test
+# Information added by Drupal.org packaging script on 2016-06-20
+version: '8.x-3.x-dev'
+core: '8.x'
+project: 'ldap'
+datestamp: 1466465053

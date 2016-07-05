@@ -22,6 +22,11 @@
 #}
 <div id="product-status-{{ row.nid }}">
     <div class="product-status-{{ output | lower }}">
-        <span>{% if ( output == '0' ) %}Offline{% elseif ( output == '1' ) %}Online{%  else %}Maintenance{%  endif %}</span>
+        <span>
+            {% if ( output == '0' ) %}Offline
+            {% elseif ( output == '1' ) %}Online
+            {%  elseif ( output == '2' ) %}Maintenance
+            {%  endif %}
+        </span>
     </div>
 </div>

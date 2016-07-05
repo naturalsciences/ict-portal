@@ -11,9 +11,9 @@ body {
     float: left;
 }
 div.product-column {
-    min-width: 240px;
-    min-height: 250px;
-    max-height: 250px;
+    min-width: 210px;
+    min-height: 225px;
+    max-height: 225px;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 1.5em;
@@ -36,6 +36,17 @@ div.product-column div.views-field-title h2 {
     margin-top:-0.2em;
     line-height: 2.4;
 }
+div.product-column div.views-field-title h2 a,
+div.product-column div.views-field-title h2 a:visited,
+div.product-column div.views-field-title h2 a:active,
+div.product-column div.views-field-title h2 a:hover
+{
+    display:inline-block;
+    width:100%;
+}
+div.product-column div.views-field-title h2 a:hover {
+    border-bottom: none;
+}
 div.products-colorbox-wrapper {
     cursor:pointer;
 }
@@ -46,7 +57,6 @@ div.products-colorbox-wrapper div:first-child {
     height:134px;
     max-height:134px;
     overflow: hidden;
-    width:89%;
 }
 div.products-colorbox-wrapper div:first-child p {
     margin:0;
@@ -55,14 +65,14 @@ div.products-colorbox-wrapper div div {
     display: inline-block;
 }
 div.products-colorbox-wrapper div.product-logo {
-    width:24%;
+    width:auto;
     height:auto;
     float:left;
     margin-right:0.2em;
 }
 div.products-colorbox-wrapper div div:last-child {
     position: absolute;
-    bottom:30px;
+    bottom:29px;
     right:3px;
     width:100%;
 }
@@ -152,7 +162,7 @@ div.product-column div.views-field-field-service-product-link {
 }
 div.views-field-field-service-product-link {
     position: absolute;
-    width:40%;
+    width:45%;
     bottom:14px;
     right:6px;
     background-color:#fff;
@@ -161,6 +171,7 @@ div.views-field-field-service-product-link {
     -webkit-box-shadow: 1px 2px 2px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:    1px 2px 2px 3px #ccc;  /* Firefox 3.5 - 3.6 */
     box-shadow:         1px 2px 2px 3px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    z-index:1;
 }
 div.views-field-field-service-product-link:hover {
     background-color:#bbb;
@@ -182,7 +193,7 @@ div.views-field-field-service-product-status {
 }
 div.views-field-field-service-product-status span {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 div.views-field-field-service-product-status div.product-status-0 {
     color: red;
@@ -239,9 +250,9 @@ div.views-field-nothing {
 }
 @media (min-width: 1280px) {
     div.product-column {
-        margin-left: 2.4em;
+        margin-left: 1.4em;
     }
     .views-view-grid .views-row {
-        width: 25%;
+        width: 20%;
     }
 }

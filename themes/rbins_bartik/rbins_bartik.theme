@@ -10,10 +10,13 @@ function rbins_bartik_preprocess_page(&$variables) {
    * @ToDo Instead of this crappy code, chek the presence
    *       of the two responsive_menu menu block in the page rendering.
    *       If not rendered, we should load the css that hides the off-canvas div
-   *       //$current_path = \Drupal::service('path.current')->getPath();
-   *       //$result = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);
    */
-  if (\Drupal::service('path.current')->getPath() !== '/helpdesk') {
+  $strPath = \Drupal::service('path.current')->getPath();
+  $result = \Drupal::service('path.alias_manager')->getAliasByPath($strPath);
+  if (
+    strpos($result, '/helpdesk') >= 0 ||
+    strpos($result, '/helpdesk/') >= 0
+  ) {
     $variables['#attached']['library'][] = 'rbins_bartik/rbins_off_canvas';
   }
 }
