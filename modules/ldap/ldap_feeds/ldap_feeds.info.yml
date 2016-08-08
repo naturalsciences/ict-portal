@@ -12,8 +12,8 @@ dependencies:
 
 
 
-# Information added by Drupal.org packaging script on 2016-06-20
-version: '8.x-3.x-dev'
+# Information added by Drupal.org packaging script on 2016-08-05
+version: '8.x-3.0-alpha1'
 core: '8.x'
 project: 'ldap'
-datestamp: 1466465053
+datestamp: 1470372596
