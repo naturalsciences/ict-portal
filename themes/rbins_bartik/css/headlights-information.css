@@ -43,6 +43,10 @@ div#block-views-block-services-and-products-headlights-block-1 h2 {
     height:20px;
 }
 
+div#block-helpdeskbranding {
+    float:left;
+}
+
 @media (max-width: 979px) {
     div.highlighted aside.layout-container {
         padding-bottom:1em;
