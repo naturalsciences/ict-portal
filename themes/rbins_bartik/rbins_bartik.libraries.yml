@@ -16,4 +16,5 @@ rbins_fonts:
   version: VERSION
   css:
     theme:
-      '//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic|Patua+One|Yanone+Kaffeesatz': { type: external, minified: true }
+      'https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic|Patua+One|Yanone+Kaffeesatz': { type: external, minified: true }
+      'https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css': { type: external, minified: true }
