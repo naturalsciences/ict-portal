@@ -16,3 +16,16 @@
     background-color: #FFFFFF;
     background-image: none;
 }
+
+div#block-corporatesitelink {
+  display: inline-block;
+  float: left;
+  padding-left: 1.5em;
+  height: 1.9em;
+}
+
+div#block-rbins-bartik-languageswitcher {
+  display: inline-block;
+  float: right;
+}
+
